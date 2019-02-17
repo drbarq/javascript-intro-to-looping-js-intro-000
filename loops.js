@@ -5,7 +5,7 @@ function forLoop() {
       return "I am 17 strange loop";
     }
     else {
-      return `"I am ${i} strange loops."`;
+      return `I am ${i} strange loops.`;
     }
   }
 }
