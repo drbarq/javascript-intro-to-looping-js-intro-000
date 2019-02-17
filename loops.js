@@ -1,14 +1,13 @@
 
 
-function forLoop(hashBrown) {
-
-  for (var a = 0; a < 25; a++) {
-    if (a === 1) {
-      hashBrown.push("I am 1 strange loop.");
+function forLoop(array) {
+  for (var i = 0; i < 25; i++) {
+    if (i === 1) {
+      array.push("I am 1 strange loop.");
     }
     else {
-      hashBrown.push("I am " + a + " strange loops.");
+      array.push("I am " + i + " strange loops.");
     }
   }
-  return hashBrown
+  return array
 }
