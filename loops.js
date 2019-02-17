@@ -2,12 +2,12 @@
 
 function forLoop(array) {
   var hashBrown = [];
-  for (var i = 0; i < 25; i++) {
-    if (i === 1) {
+  for (var pen = 0; pen < 25; pen++) {
+    if (pen === 1) {
       hashBrown.push("I am 1 strange loop.");
     }
     else {
-      hashBrown.push("I am " + i + " strange loops.");
+      hashBrown.push("I am " + pen + " strange loops.");
     }
   }
   return hashBrown
