@@ -31,5 +31,6 @@ do {
   function doWhileLoop(num) {
     if(num === 10) {
     console.log("I run once reguardles".repeat(10));
+    }
   }
 }
