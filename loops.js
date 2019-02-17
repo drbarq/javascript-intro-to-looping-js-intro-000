@@ -25,11 +25,11 @@ function incrementVariable() {
 }
 
 do {
-  function doWhileLoop(num) {
     console.log("I run once regardless.")
-  }
+
 } while (incrementVariable() < num) {
-  if(num === 10) {
-    console.log("I run once reguardless1010".repeat(10));
+  function doWhileLoop(num) {
+    if(num === 10) {
+    console.log("I run once reguardles".repeat(10));
   }
 }
