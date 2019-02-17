@@ -1,6 +1,6 @@
 
 
-function forLoop(array) {
+function forLoop(hashBrown) {
   var hashBrown = [];
   for (var a = 0; a < 25; a++) {
     if (a === 1) {
