@@ -10,5 +10,5 @@ function forLoop(array) {
       arrayJoe.push("I am " + i + " strange loops.");
     }
   }
-  return array
+  return arrayJoe
 }
