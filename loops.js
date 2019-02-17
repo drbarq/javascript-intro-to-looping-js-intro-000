@@ -1,8 +1,8 @@
 
 
 function forLoop(array) {
-  var hashBrown = []
-  for (var i = 1; i < 25; i++) {
+  var hashBrown = [];
+  for (var i = 0; i < 25; i++) {
     if (i === 1) {
       hashBrown.push("I am 1 strange loop.");
     }
