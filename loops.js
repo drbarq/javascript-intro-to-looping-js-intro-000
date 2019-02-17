@@ -24,10 +24,9 @@ function incrementVariable() {
   return i;
 }
 
-do {
+do { function doWhileLoop(num){
   console.log("I run once regardless.");
-  function doWhileLoop(num){
-    if (num === 10) {
+  if (num === 10) {
       console.log("WEWEWEWE");
     }
   }
