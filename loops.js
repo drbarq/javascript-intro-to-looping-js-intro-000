@@ -28,7 +28,7 @@ do {
   function doWhileLoop(num) {
     console.log("I run once regardless.")
   }
-} while (incrementVariable() < num) {
+} while (incrementVariable() > num) {
   if(num === 10) {
     console.log("I run once reguardless1010")
   }
