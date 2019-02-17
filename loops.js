@@ -32,5 +32,4 @@ do {
   if(num === 10) {
     console.log("I run once reguardless1010")
   }
-  return
 }
